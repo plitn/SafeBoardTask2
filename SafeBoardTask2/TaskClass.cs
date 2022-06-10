@@ -36,7 +36,6 @@ public class TaskClass
             try
             {
                 var text = File.ReadAllText(file);
-                Console.WriteLine(text);
                 string userProfString = Environment.ExpandEnvironmentVariables(@"%userprofile%\Documents");
                 if (file.EndsWith(".js") && text.Contains("<script>evil_script()</script>"))
                 {
@@ -54,8 +53,8 @@ public class TaskClass
             catch (IOException ex)
             {
                 checkErrors++;
+                Console.WriteLine(ex.StackTrace);
             }
-
             filesChecked++;
         }
         resultTime = DateTime.Now - workTimer;
