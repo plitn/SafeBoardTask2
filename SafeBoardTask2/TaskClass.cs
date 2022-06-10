@@ -23,6 +23,10 @@ public class TaskClass
         Task = new Task(() => SearchErrors(directory));
     }
 
+    /// <summary>
+    /// сканируем на все ошибки
+    /// </summary>
+    /// <param name="directory">директория, которую надо просканировать</param>
     private void SearchErrors(string directory)
     {
         
@@ -57,6 +61,9 @@ public class TaskClass
         resultTime = DateTime.Now - workTimer;
     }
 
+    /// <summary>
+    /// запуск сканирования + таймера
+    /// </summary>
     public void Start()
     {
         Task = new Task(() => SearchErrors(directory));
@@ -64,6 +71,10 @@ public class TaskClass
         workTimer = DateTime.Now;
     }
 
+    /// <summary>
+    /// проверка что задание завершено
+    /// </summary>
+    /// <returns>завершено задание или нет)</returns>
     public bool IsTaskCompleted()
     {
         return Task.IsCompleted;
@@ -74,6 +85,10 @@ public class TaskClass
         return Task.Id;
     }
 
+    /// <summary>
+    /// для получения информации о сканировании
+    /// </summary>
+    /// <returns>строку с инфой о сканировнии</returns>
     public string GetInfo()
     {
         

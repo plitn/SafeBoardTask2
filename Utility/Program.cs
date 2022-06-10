@@ -4,6 +4,13 @@ public class Program
 {
     public static void Main(string[] args)
     {
+        /*
+         * утилита работает пока не введете exit
+         * чтобы просканировать директорию введите scan diretory
+         * где directory - абсолютный путь до директории
+         * чтобы получить статус задания введите status id
+         * где id - номер задания, который показывается при создании задания на скан
+         */
         ScanerUtility sc = new ScanerUtility();
         string cmd = Console.ReadLine();
         while (cmd != "exit")
