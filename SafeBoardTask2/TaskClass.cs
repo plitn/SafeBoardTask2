@@ -10,6 +10,7 @@ public class TaskClass
     private string directory;
     private int checkErrors;
     private DateTime workTimer;
+    private TimeSpan resultTime;
 
     public TaskClass(string directory)
     {
@@ -53,6 +54,7 @@ public class TaskClass
 
             filesChecked++;
         }
+        resultTime = DateTime.Now - workTimer;
     }
 
     public void Start()
@@ -74,9 +76,9 @@ public class TaskClass
 
     public string GetInfo()
     {
-        var workTime = DateTime.Now - workTimer;
+        
         return $"Directory: {directory}\nProcessed files: {filesChecked}\nJs detecs: {jsErrs}\n" +
                $"rm -rf detects: {rmErrs}\nRundll32 detects: {rmErrs}\nErrors: {checkErrors}\n" +
-               $"Exection time: {DateTime.Now - workTime}";
+               $"Exection time: {resultTime}";
     }
 }

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\platon\\RiderProjects\\SafeBoardTask2\\SafeBoardTask2\\SafeBoardTask2.csproj": {}
+    "C:\\Users\\platon\\RiderProjects\\SafeBoardTask2\\Utility\\Utility.csproj": {}
   },
   "projects": {
-    "C:\\Users\\platon\\RiderProjects\\SafeBoardTask2\\SafeBoardTask2\\SafeBoardTask2.csproj": {
+    "C:\\Users\\platon\\RiderProjects\\SafeBoardTask2\\Utility\\Utility.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\platon\\RiderProjects\\SafeBoardTask2\\SafeBoardTask2\\SafeBoardTask2.csproj",
-        "projectName": "SafeBoardTask2",
-        "projectPath": "C:\\Users\\platon\\RiderProjects\\SafeBoardTask2\\SafeBoardTask2\\SafeBoardTask2.csproj",
+        "projectUniqueName": "C:\\Users\\platon\\RiderProjects\\SafeBoardTask2\\Utility\\Utility.csproj",
+        "projectName": "Utility",
+        "projectPath": "C:\\Users\\platon\\RiderProjects\\SafeBoardTask2\\Utility\\Utility.csproj",
         "packagesPath": "C:\\Users\\platon\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\platon\\RiderProjects\\SafeBoardTask2\\SafeBoardTask2\\obj\\",
+        "outputPath": "C:\\Users\\platon\\RiderProjects\\SafeBoardTask2\\Utility\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\platon\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -39,12 +39,6 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
-          "dependencies": {
-            "Swashbuckle.AspNetCore": {
-              "target": "Package",
-              "version": "[6.2.3, )"
-            }
-          },
           "imports": [
             "net461",
             "net462",
@@ -56,9 +50,6 @@
           "assetTargetFallback": true,
           "warn": true,
           "frameworkReferences": {
-            "Microsoft.AspNetCore.App": {
-              "privateAssets": "none"
-            },
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }

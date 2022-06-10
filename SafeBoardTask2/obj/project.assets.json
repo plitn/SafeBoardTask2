@@ -208,19 +208,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\fanca\\.nuget\\packages\\": {}
+    "C:\\Users\\platon\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\fanca\\RiderProjects\\SafeBoardTask2\\SafeBoardTask2\\SafeBoardTask2.csproj",
+      "projectUniqueName": "C:\\Users\\platon\\RiderProjects\\SafeBoardTask2\\SafeBoardTask2\\SafeBoardTask2.csproj",
       "projectName": "SafeBoardTask2",
-      "projectPath": "C:\\Users\\fanca\\RiderProjects\\SafeBoardTask2\\SafeBoardTask2\\SafeBoardTask2.csproj",
-      "packagesPath": "C:\\Users\\fanca\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\fanca\\RiderProjects\\SafeBoardTask2\\SafeBoardTask2\\obj\\",
+      "projectPath": "C:\\Users\\platon\\RiderProjects\\SafeBoardTask2\\SafeBoardTask2\\SafeBoardTask2.csproj",
+      "packagesPath": "C:\\Users\\platon\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\platon\\RiderProjects\\SafeBoardTask2\\SafeBoardTask2\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\fanca\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\platon\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -269,7 +269,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.203\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.202\\RuntimeIdentifierGraph.json"
       }
     }
   }

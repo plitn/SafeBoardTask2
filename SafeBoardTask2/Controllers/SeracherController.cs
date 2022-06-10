@@ -4,7 +4,7 @@ namespace SafeBoardTask2.Controllers;
 
 [ApiController]
 [Route("[controller]")]
-public class SeracherController : Controller
+public class SearcherController : Controller
 {
     private static Dictionary<int, TaskClass> _tasksDict = new Dictionary<int, TaskClass>();
 
